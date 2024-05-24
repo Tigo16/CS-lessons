@@ -6,8 +6,10 @@ namespace task2
         {
             double a = 28.725;
             int b = (int)a;
+            
             Console.WriteLine(a);
             Console.WriteLine(b);
+            Console.Readkey();
         }
     }
 }
