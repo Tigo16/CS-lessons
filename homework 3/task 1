@@ -1,15 +1,15 @@
-namespace task1
+using System;
+
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            int a;
-            double b;
-            a = 23;
-            b = a;
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-        }
+        int a;
+        double b;
+        a = 23;
+        b = a;
+
+        Console.WriteLine(a);
+        Console.WriteLine(b);
     }
 }
