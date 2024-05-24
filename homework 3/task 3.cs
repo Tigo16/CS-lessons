@@ -4,11 +4,11 @@ namespace task1
     {
         static void Main(string[] args)
         {
-            string a = "34";
-            int b = Convert.ToInt32(a);
+            string str = "34";
+            int a = Convert.ToInt32(str);
 
+            Console.WriteLine(str);
             Console.WriteLine(a);
-            Console.WriteLine(b);
             Console.ReadKey();
         }
     }
