@@ -8,15 +8,13 @@ namespace task12
             if (num > 0) {
                 Console.WriteLine("The number is positive");
             }
+            else if (num < 0)
+            {
+                Console.WriteLine("The number is negative");
+            }
             else
             {
-                if (num < 0) {
-                    Console.WriteLine("The number is negative");
-                }
-                else
-                {
-                    Console.WriteLine("The number is zero");
-                }
+                Console.WriteLine("The number is zero");
             }
             Console.ReadKey();
         }
