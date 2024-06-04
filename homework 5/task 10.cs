@@ -7,25 +7,16 @@ namespace task10
             int a = 17;
             int b = 25;
             int c = 12;
-            if(a > b) {
-                if(a > c)
-                {
-                    Console.WriteLine("The largest number is a");
-                }
+            if (a > b && a > c) {
+                Console.WriteLine("The largest number is a");
             }
-            if (b > a)
+            else if (b > a && b > c)
             {
-                if (b > c)
-                {
-                    Console.WriteLine("The largest number is b");
-                }
+                Console.WriteLine("The largest number is b");
             }
-            if (c > a)
+            else if (c > a && c > b)
             {
-                if (c > b)
-                {
-                    Console.WriteLine("The largest number is c");
-                }
+                Console.WriteLine("The largest number is a");
             }
             Console.ReadKey();
         }
