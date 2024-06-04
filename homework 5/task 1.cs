@@ -1,4 +1,4 @@
-namespace ConsoleApp
+namespace task1 
 {
     internal class Program
     {
