@@ -9,7 +9,7 @@ namespace task1
             Console.WriteLine("String Uppercase: " + str.ToUpper());
             Console.WriteLine("String Lowercase:" + str.ToLower());
             Console.WriteLine("Substring: " + str.Substring(7));
-	          Console.ReadKey();
+	    Console.ReadKey();
         }
     }
 }
