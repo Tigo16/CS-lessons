@@ -4,9 +4,11 @@ namespace task2
     {
         static void Main(string[] args)
         {
-            int n = 14;
+            int n;
             int sum = 0;
-            for (int i = 0; i <= n; i++) {
+            n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i <= n; i++)
+            {
                 sum += i;
             }
             Console.WriteLine(sum);
