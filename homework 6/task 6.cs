@@ -4,7 +4,7 @@ namespace task6
     {
         static void Main(string[] args)
         {
-            int n;
+            uint n;
             int res = 1;
             n = Convert.ToInt32(Console.ReadLine());
             for (int i = 1; i <= n; i++)
