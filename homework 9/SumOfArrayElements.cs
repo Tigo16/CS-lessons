@@ -3,8 +3,11 @@ namespace Sum_of_Array_Elements
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Array array = Array.CreateInstance(typeof(int), 3);
+        {            
+            Console.WriteLine("Input the number of elements to store in the array");
+            int n = int.Parse(Console.ReadLine());
+
+            Array array = Array.CreateInstance(typeof(int), n);
             int sum = 0;
             
             Console.WriteLine("Input 3 elements in the array");
