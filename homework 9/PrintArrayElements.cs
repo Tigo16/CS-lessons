@@ -1,4 +1,4 @@
-namespace task1
+namespace Print_Array_Elements
 {
     internal class Program
     {
