@@ -4,10 +4,13 @@ namespace Copy_Elements_to_Another_Array
     {
         static void Main(string[] args)
         {
-            Array array1 = Array.CreateInstance(typeof(int), 3);
-            Array array2 = Array.CreateInstance(typeof(int), 3);
+            Console.WriteLine("Input the number of elements to store in the array");
+            int n = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("Input 3 elements in the array");
+            Array array1 = Array.CreateInstance(typeof(int), n);
+            Array array2 = Array.CreateInstance(typeof(int), n);
+            
+            Console.WriteLine($"Input {n} elements in the array");
             for (int i = 0; i < array1.Length; i++)
             {
                 array1.SetValue(int.Parse(Console.ReadLine()), i);
